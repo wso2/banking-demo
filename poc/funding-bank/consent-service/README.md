@@ -1,1 +1,1 @@
-# choreo-account-service
+Funding bank's consent service
