@@ -1,16 +1,16 @@
-swagger: '2.0'
+openapi: "3.0.0"
 info:
-  title: AccountandTransactionAPI
-  description: Swagger for Account and Transaction API Specification
-  termsOfService: 'https://www.openbanking.org.uk/terms'
+  title: "Account and Transaction API Specification"
+  description: "Swagger for Open Banking Account and Transaction API Specification"
   contact:
-    name: Service Desk
-    email: ServiceDesk@openbanking.org.uk
+    name: "WSO2 Open Banking Team"
+    email: "test@wso2.com"
   license:
-    name: open-licence
-    url: 'https://www.openbanking.org.uk/open-licence'
-  version: v3.1
-basePath: /open-banking/{version}/aisp
+    name: "WSO2 Commercial License"
+    url: "http://wso2.com/licenses"
+  version: "1.0.0"
+servers:
+  - url: "/open-banking"
 tags:
   - name: Account Access
     description: Account Access Consents
